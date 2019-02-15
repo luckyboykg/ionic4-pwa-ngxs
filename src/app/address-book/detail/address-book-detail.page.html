@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title *ngIf="(addressBook | async) as addressBook">
+            {{addressBook.name}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list *ngIf="(addressBook | async) as addressBook">
+        {{runChangeDetection}}
+        <ion-item>
+            <ion-label color="primary">Phone: </ion-label>
+            <ion-label class="test_phone">{{addressBook.phone}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">Email: </ion-label>
+            <ion-label class="test_email">{{addressBook.email}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">LinkedIn: </ion-label>
+            <ion-label class="test_linkedIn">{{addressBook.linkedIn}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary">Skype: </ion-label>
+            <ion-label class="test_skype">{{addressBook.skype}}</ion-label>
+        </ion-item>
+    </ion-list>
+</ion-content>

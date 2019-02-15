@@ -1,0 +1,82 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>
+            Add new address book
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <form novalidate
+        class="container"
+        [formGroup]="addressBookForm"
+        (ngSubmit)="onSubmit()">
+
+        <ion-item>
+            <ion-label color="primary">Name</ion-label>
+            <ion-input type="text"
+                [formControl]="nameControl"
+                name="name"></ion-input>
+        </ion-item>
+        <p *ngIf="nameControl.errors 
+            && nameControl.errors.required 
+            && nameControl.dirty"
+            class="danger">
+            Please enter name.
+        </p>
+
+        <ion-item>
+            <ion-label color="primary">Phone</ion-label>
+            <ion-input type="text"
+                [formControl]="phoneControl"
+                name="phone"></ion-input>
+        </ion-item>
+        <p *ngIf="phoneControl.errors 
+            && phoneControl.errors.required 
+            && phoneControl.dirty"
+            class="danger">
+            Please enter phone number.
+        </p>
+
+        <ion-item>
+            <ion-label color="primary">Email</ion-label>
+            <ion-input type="text"
+                [formControl]="emailControl"
+                name="email"></ion-input>
+        </ion-item>
+        <p *ngIf="emailControl.errors 
+            && emailControl.errors.required 
+            && emailControl.dirty"
+            class="danger">
+            Please enter email.
+        </p>
+        <p *ngIf="emailControl.errors 
+            && !emailControl.errors.required 
+            && emailControl.errors.email 
+            && emailControl.dirty"
+            class="danger">
+            Please enter valid email.
+        </p>
+
+        <ion-item>
+            <ion-label color="primary">LinkedIn</ion-label>
+            <ion-input type="text"
+                [formControl]="linkedInControl"
+                name="linkedIn"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label color="primary">Skype</ion-label>
+            <ion-input type="text"
+                [formControl]="skypeControl"
+                name="skype"></ion-input>
+        </ion-item>
+
+        <ion-button [disabled]="!addressBookForm.valid"
+            type="submit">Add</ion-button>
+    </form>
+</ion-content>
