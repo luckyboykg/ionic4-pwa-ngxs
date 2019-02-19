@@ -12,11 +12,16 @@ NGXS pattern :
 
 **-Centralized, Immutable State**
 
-Single source of truth: The data lives in a single store so it is easier to manage, debug and inspect.
+Single source of truth.
+
+The data lives in a single store so it is easier to manage, debug and inspect.
 
 **-Immutable State**
 
-State is read-only: All components have to dispatch Action to get or set any data from the Store.
+State is read-only
+
+All components have to dispatch Action to get or set any data from the Store.
+
 So we can manage all the changes in our system and avoid the side effect. 
 
 **-Share State**
@@ -46,16 +51,19 @@ All state updates are handled by pure functions and they are extremely simple to
 ### Cons:
 
 Not officially supported by Angular or Ionic.
+
 Developer has to spend more time and effort to learn new technology as Redux pattern, NGXS library
 
 ### My Conclusion:
 
 Should use NGXS for every angular app with more than 5 screens and we intend to upgrade it later. 
+
 Because NGXS help us easy to go for the complex application.
 
 ### NGXS vs NGRX
 
 NGXS implement the same pattern (Redux) as NGRX.
-NGXS is simpler and shorter than NGRX.
-But NGRX is used on production for many Enterprises out there and has bigger community.
 
+NGXS is simpler and shorter than NGRX.
+
+But NGRX is used on production for many Enterprises out there and has bigger community.
