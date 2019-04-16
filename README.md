@@ -2,6 +2,7 @@
 This project is an example to apply NGXS and PWA in Ionic 4.
 
 Dependencies :
+
 Ionic 4, @ngxs/store : 3.3.4, jasmine : 2.8.8, karma : 3.1.4, typescript : 3.1.6
 
 NGXS pattern :
@@ -26,12 +27,14 @@ So we can manage all the changes in our system and avoid the side effect.
 
 ## Share State
 
-State can share across many components. 
+State can share across many components.
+
 We can minimize the risk of sharing variables, services between multiple components.
 
 ## Components will shorter and cleaner
 
 Component just need to binding data from the State.
+
 It helps us very easy to maintain Component and Service.
 
 ## Performance
