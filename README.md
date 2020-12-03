@@ -19,6 +19,10 @@ Data flow in NGRX:
 
 ![alt text](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9CoGJCq3UCfKJ7RCUg%2F-LVrR_Jobt3NVt61AhlH%2F-LVrRb1WdI1nngz9VmFm%2Fdiagram.png?generation=1547118480096027&alt=media)
 
+## Differences:
+
+![alt text](https://miro.medium.com/max/2500/1*hugcTtwq34Nfqi7p4wKLhA.png)
+
 # Pros:
 
 ## Centralized, Immutable State
