@@ -1,11 +1,21 @@
-# ionic4-pwa-ngxs
-This project is an example to apply NGXS and PWA in Ionic 4.
+# Ionic4 NGXS
+This project is an example to apply NGXS in Ionic 4.
 
-Dependencies :
+Dependencies:
 
 Ionic 4, @ngxs/store : 3.3.4, jasmine : 2.8.8, karma : 3.1.4, typescript : 3.1.6
 
-NGXS pattern :
+## NGRX library
+-Implement Redux Architecture
+
+![alt text](https://lh6.googleusercontent.com/c0NfQ3-FuyhRCviYqXuoD_5-FXuVulrNUIZ_JvLk48CjXXwkBdJtuOMdkgpqzQE8ToMSCkE9JG8ZKfPOSkmDkxENLWx5h4CKe_RZQaLQ513InI5LONPpaowuLum8zleDFDJ0OkjZM80)
+
+
+Data flow in NGRX:
+
+![alt text](https://lh5.googleusercontent.com/MNcki6oUyEYiJ1oZUCl8VW44QhVb2ujGYKskKCjUdwo2m-HfI9VIktW6AaSExOaSBUv81XtPauNJ-ENhOcpswVvdCF-eomn2HuaVrC-c5KCwk-tofIb5BxAcveKpnygtSdpvRRewj-c)
+
+## NGXS library
 
 ![alt text](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9CoGJCq3UCfKJ7RCUg%2F-LVrR_Jobt3NVt61AhlH%2F-LVrRb1WdI1nngz9VmFm%2Fdiagram.png?generation=1547118480096027&alt=media)
 
