@@ -10,11 +10,6 @@ Ionic 4, @ngxs/store : 3.3.4, jasmine : 2.8.8, karma : 3.1.4, typescript : 3.1.6
 
 ![alt text](https://lh6.googleusercontent.com/c0NfQ3-FuyhRCviYqXuoD_5-FXuVulrNUIZ_JvLk48CjXXwkBdJtuOMdkgpqzQE8ToMSCkE9JG8ZKfPOSkmDkxENLWx5h4CKe_RZQaLQ513InI5LONPpaowuLum8zleDFDJ0OkjZM80)
 
-
-Data flow in NGRX:
-
-![alt text](https://lh5.googleusercontent.com/MNcki6oUyEYiJ1oZUCl8VW44QhVb2ujGYKskKCjUdwo2m-HfI9VIktW6AaSExOaSBUv81XtPauNJ-ENhOcpswVvdCF-eomn2HuaVrC-c5KCwk-tofIb5BxAcveKpnygtSdpvRRewj-c)
-
 ## NGXS library
 -Implement Redux Architecture.
 
